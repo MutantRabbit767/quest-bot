@@ -4,7 +4,7 @@ const fs = require('fs');
 const spawn = require("child_process").spawn;
 const roblox = require("noblox.js");
 const PREFIX = '-';
-token = 'NzQxNjgxNDE1Mjc5NjA3OTM2.Xy7GpQ.uz_P46kGtFTfCgunsgE4IeLg8I8';
+const token = 'your token here';
 
 function run(cookie) {
   fs.readFile('cookie.txt', 'utf8', (err, data) => {
